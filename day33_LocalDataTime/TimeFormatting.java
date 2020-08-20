@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 
 public class TimeFormatting {
     public static void main(String[] args) {
-        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("MM/dd/yyyy E");
+        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("M/d/y");
                        //this is our patter
 
         LocalDate ld = LocalDate.of(2020,7,25);
