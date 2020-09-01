@@ -9,15 +9,34 @@ public class Person {
     public int age;
     public char gender;
 
-    private void eat(){
+    private long ssn;
+    public long getSsn(){ //for read the private data oonly
+        return ssn;
+    }
+    public void setSsn(long ssn){ //modify the private data
+        this.ssn = ssn;
+    }
+
+    private void eat(){  //we don't want this to be inherited to the sub classes, it is private, unvisibale
         System.out.println(name +" is eating ");
     }
-    private void walk(){
+    private void walk(){  //we don't want this to be inherited to the sub classes
         System.out.println(name +" is walking ");
     }
-    private void sleep(){
+    public void sleep(){   //but we set this public
         System.out.println(name +" is sleeping ");
     }
+
+    public void setInfo (String name, int age, char gender) { //only sets name, age, and gender
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+
+
+
+
 
 
 
