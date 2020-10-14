@@ -1,6 +1,6 @@
 package day51_Exceptions;
 
-import Library.Util;
+import library.Util;
 
 public class ExceptionPractice {
 

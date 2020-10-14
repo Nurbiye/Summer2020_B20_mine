@@ -1,6 +1,6 @@
 package day32_MethodOverLoading;
 
-import Library.Util;
+import library.Util;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package day0;
 
-import Library.CustomMethods;  //if methods inside is static, we can call the method from other package
+import library.CustomMethods;  //if methods inside is static, we can call the method from other package
 
 public class MethodCall {
     public static void main(String[] args) {

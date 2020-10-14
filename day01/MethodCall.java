@@ -1,6 +1,6 @@
 package day01;
 
-import Library.CustomMethod2;
+import library.CustomMethod2;
 
 public class MethodCall { //by importing the method class... package name,class name
     public static void main(String[] args) {

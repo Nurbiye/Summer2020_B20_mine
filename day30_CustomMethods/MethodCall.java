@@ -1,6 +1,6 @@
 package day30_CustomMethods;
 
-import Library.Util;
+import library.Util;
 
 public class MethodCall {
 
